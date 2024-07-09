@@ -20,7 +20,7 @@ public class SumHundredSHundred{
 		// 或者等差数列前n项和，通项公式：an = a1 + (n-1)d，Sn = n(a1 + an)/2 = n[2a1 + (n-1)d]/2
 		// a1 = 1 an = i 单个Sn = i(1+i)/2
 		// 多个使用循环相加
-		/** for (int i = 1;i <= 100; i++ ) {
+		/* for (int i = 1;i <= 100; i++ ) {
 		 *	 sum +=i *(1+i)/2
 		 * 	}
 		*/
