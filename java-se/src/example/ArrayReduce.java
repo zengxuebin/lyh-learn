@@ -11,8 +11,8 @@ public class ArrayReduce{
 		// 3.每次缩减进行判断是否继续，是否提前结束循环
 
 		// 创建准备缩减的数组
-		int arr1[] = {1,8,97,31,45};
-		int arrayLength = arr1.length;
+		int[] arr = {1,8,97,31,45};
+		int arrayLength = arr.length;
 		boolean continueReduction = true;
 		Scanner myScanner = new Scanner(System.in);
 
@@ -22,24 +22,20 @@ public class ArrayReduce{
 			是否需要提前结束循环
 				是，用户决定是否提前结束
 			提前结束循环的条件
-				
+
 		*/
 		while(continueReduction && arrayLength > 1) {
-			/* 
+			/*
 				缩减代码
 				  减少数组长度，并把数组元素放入数组当中，定义数组长度
 				  减少数组长度，
 				  使用for循环把数组元素放入减少了长度的数组当中
-				*/ 
+				*/
 			arrayLength--;
 
-			for (int i = 0; i < arrayLength; i++) {
-				arr1[i] = arr1[i];
-			}
-		
 			System.out.println("====打印数组====");
 			for (int i = 0; i < arrayLength; i++) {
-				System.out.println(arr1[i]);
+				System.out.println(arr[i]);
 			}
 
 			/*
