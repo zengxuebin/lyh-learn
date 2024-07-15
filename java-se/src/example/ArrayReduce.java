@@ -11,8 +11,8 @@ public class ArrayReduce{
 		// 3.每次缩减进行判断是否继续，是否提前结束循环
 
 		// 创建准备缩减的数组
-		int arr[] = {1,8,97,31,45};
-		int arrayLength = arr.length;
+		int arr1[] = {1,8,97,31,45};
+		int arrayLength = arr1.length;
 		boolean continueReduction = true;
 		Scanner myScanner = new Scanner(System.in);
 
@@ -34,12 +34,12 @@ public class ArrayReduce{
 			arrayLength--;
 
 			for (int i = 0; i < arrayLength; i++) {
-				arr[i] = arr[i];
+				arr1[i] = arr1[i];
 			}
 		
 			System.out.println("====打印数组====");
 			for (int i = 0; i < arrayLength; i++) {
-				System.out.println(arr[i]);
+				System.out.println(arr1[i]);
 			}
 
 			/*
